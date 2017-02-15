@@ -1,0 +1,63 @@
+Welcome to the Xming X Server
+Vendor: Colin Harrison
+Release: 6.9.0.31
+FreeType2: 2.3.4
+Contact: http://sourceforge.net/forum/?group_id=156984
+
+.\Xming.exe :0 -dpi 85 -clipboard -trayicon -c -multiwindow -reset 
+ -terminate -unixkill -logfile Xming.log
+
+XdmcpRegisterConnection: newAddress 192.168.11.1
+winPrefsLoadPreferences: C:\Xming\Xmingrc
+LoadPreferences: Done parsing the configuration file...
+winAdjustVideoModeShadowGDI - Using Windows display depth of 32 bits per pixel
+winAllocateFBShadowGDI - Creating DIB with width: 1280 height: 1024 depth: 32
+winInitVisualsShadowGDI - Masks 00ff0000 0000ff00 000000ff BPRGB 8 d 24 bpp 32
+glWinInitVisuals:1596: glWinInitVisuals
+glWinInitVisualConfigs:1503: glWinInitVisualConfigs glWinSetVisualConfigs:1581: glWinSetVisualConfigs
+init_visuals:1055: init_visuals
+null screen fn ReparentWindow
+null screen fn RestackWindow
+InitQueue - Calling pthread_mutex_init
+InitQueue - pthread_mutex_init returned
+InitQueue - Calling pthread_cond_init
+InitQueue - pthread_cond_init returned
+glWinScreenProbe:1390: glWinScreenProbe
+fixup_visuals:1303: fixup_visuals
+init_screen_visuals:1336: init_screen_visuals
+(--) 3 mouse buttons found
+(--) Setting autorepeat to delay=500, rate=31
+(--) winConfigKeyboard - Layout: "00000409" (00000409) 
+(--) Using preset keyboard for "English (USA)" (409), type "4"
+winInitMultiWindowWM - Hello
+winInitMultiWindowWM - Calling pthread_mutex_lock ()
+winMultiWindowXMsgProc - Hello
+winMultiWindowXMsgProc - Calling pthread_mutex_lock ()
+Could not init font path element C:\Xming/fonts/Type1/, removing from list!
+Could not init font path element C:\Xming/fonts/100dpi/, removing from list!
+Could not init font path element C:\Program Files\Xming\fonts\dejavu, removing from list!
+Could not init font path element C:\Program Files\Xming\fonts\cyrillic, removing from list!
+Could not init font path element C:\WINDOWS\Fonts, removing from list!
+winInitMultiWindowWM - pthread_mutex_lock () returned.
+winMultiWindowXMsgProc - pthread_mutex_lock () returned.
+winMultiWindowXMsgProc - pthread_mutex_unlock () returned.
+winMultiWindowXMsgProc - DISPLAY=127.0.0.1:0.0
+winInitMultiWindowWM - pthread_mutex_unlock () returned.
+winInitMultiWindowWM - DISPLAY=127.0.0.1:0.0
+winProcEstablishConnection - Hello
+winInitClipboard ()
+winProcEstablishConnection - winInitClipboard returned.
+winMultiWindowXMsgProc - XOpenDisplay () returned and successfully opened the display.
+winInitMultiWindowWM - XOpenDisplay () returned and successfully opened the display.
+winClipboardProc - Hello
+DetectUnicodeSupport - Windows XP
+winClipboardProc - DISPLAY=127.0.0.1:0.0
+winClipboardProc - XOpenDisplay () returned and successfully opened the display.
+winDeleteNotifyIcon
+winDeinitMultiWindowWM - Noting shutdown in progress
+winClipboardProc - winClipboardFlushWindowsMessageQueue trapped WM_QUIT message, exiting main loop.
+winClipboardProc - XDestroyWindow succeeded.
+glWinResetExtension:1489: glWinResetExtension
+
+winClipboardIOErrorHandler!
+
